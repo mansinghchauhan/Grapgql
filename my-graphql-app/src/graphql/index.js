@@ -25,9 +25,6 @@ export const GET_USERS = gql`
   query {
     users {
       id
-      name
-      email
-      age
     }
   }
 `;
